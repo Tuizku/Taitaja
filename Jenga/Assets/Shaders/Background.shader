@@ -5,6 +5,9 @@ Shader "Unlit/Background"
         _MainTex ("Texture", 2D) = "white" {}
         _Speed ("Speed", FLOAT) = 0
         _Color ("Color", COLOR) = (1, 1, 1, 1)
+        _Freq ("Frequency", FLOAT) = 0
+        _Wave("Wave", FLOAT) = 0
+        _WaveSpeed("WaveSpeed", FLOAT) = 0
     }
     SubShader
     {
@@ -34,6 +37,9 @@ Shader "Unlit/Background"
             sampler2D _MainTex;
             float4 _MainTex_ST;
             float _Speed;
+            float _Freq;
+            float _Wave;
+            float _WaveSpeed;
             float4 _Color;
 
             v2f vert (appdata v)
@@ -46,7 +52,7 @@ Shader "Unlit/Background"
 
             fixed4 frag (v2f i) : SV_Target
             {
-                fixed4 col = tex2D(_MainTex, i.uv + float2(_Time.x, _Time.x) * _Speed) * _Color;
+                fixed4 col = tex2D(_MainTex, i.uv + float2(_Time.x, _Time.x + sin(i.uv.x / _Freq + _Time.x * _WaveSpeed) / _Wave) * _Speed) * _Color;
                 return col;
             }
             ENDCG
