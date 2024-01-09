@@ -463,7 +463,7 @@ Transform:
   m_GameObject: {fileID: 116354425}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -20}
+  m_LocalPosition: {x: 0, y: 0, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1751,6 +1751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c5b13375f119c2489ff17be698b0518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loseMessages: []
   keepTag: block
   onLose:
     m_PersistentCalls:
@@ -1767,7 +1768,7 @@ MonoBehaviour:
           m_StringArgument: Lose
           m_BoolArgument: 0
         m_CallState: 2
-  onStart:
+  onTurn:
     m_PersistentCalls:
       m_Calls: []
 --- !u!65 &609013662
@@ -3647,7 +3648,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pieceSensitivity: 24
   cameraSensitivity: 3
-  pieceSize: 4
+  OnTurnChange:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1198792608
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -8,17 +8,22 @@ public class PlayerController : MonoBehaviour
     // Setting Variables
     [SerializeField] private float pieceSensitivity = 12f;
     [SerializeField] private float cameraSensitivity = 3f;
+    [SerializeField] private float intensityWait = 5f;
+    [SerializeField] private AnimationCurve intensityCurve;
 
     // Events
     public UnityEvent OnTurnChange;
+    public UnityEvent OnPieceRemove;
+    public UnityEvent<float> OnIntensityChange;
 
     // Variables for controlling pieces
     private JengaPiece selectedPiece;
     private Vector3 pieceMovingDirection;
     private float lastMouseY;
 
-    // Variables for camera
+    // Private variables
     private float rotationY;
+    private bool controlsEnabled = true;
 
 
 
@@ -30,12 +35,12 @@ public class PlayerController : MonoBehaviour
             rotationY += Input.GetAxis("Mouse X") * cameraSensitivity;
             transform.localEulerAngles = new Vector3(0, rotationY, 0);
         }
-        
+
         // Controlling pieces
+        if (!controlsEnabled || GameManager.hasLost) return;
         if (Input.GetMouseButtonDown(0)) SelectPiece();
         if (Input.GetMouseButtonUp(0)) DeselectPiece();
         if (Input.GetMouseButton(0) && selectedPiece) MovePiece();
-        
     }
 
 
@@ -47,7 +52,6 @@ public class PlayerController : MonoBehaviour
         {
             selectedPiece = hit.transform.GetComponent<JengaPiece>();
             pieceMovingDirection = -hit.normal;
-            print(hit.normal);
         }
 
         // Set lastMouse to mouse position so the piece just doesn't teleport away
@@ -65,7 +69,8 @@ public class PlayerController : MonoBehaviour
         // Removes the piece if it isn't colliding with any other piece. This also changes the turn
         if (!selectedPiece.IsColliding())
         {
-            OnTurnChange.Invoke();
+            StartCoroutine(ChangeTurnWhenStable());
+            OnPieceRemove.Invoke();
 
             // Clean
             Destroy(selectedPiece.gameObject);
@@ -76,5 +81,20 @@ public class PlayerController : MonoBehaviour
     private void DeselectPiece()
     {
         selectedPiece = null;
+    }
+
+    private IEnumerator ChangeTurnWhenStable()
+    {
+        controlsEnabled = false;
+        float time = 0;
+        while (time < intensityWait)
+        {
+            time += Time.deltaTime;
+            OnIntensityChange.Invoke(intensityCurve.Evaluate(time / intensityWait));
+            yield return new WaitForEndOfFrame();
+        }
+
+        OnTurnChange.Invoke();
+        controlsEnabled = true;
     }
 }

@@ -48,7 +48,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c398a28252faab9479956b41d050ccb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {x: 0, y: 0, z: 0}
 --- !u!33 &2568658790198714129
 MeshFilter:
   m_ObjectHideFlags: 0
