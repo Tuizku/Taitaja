@@ -123,6 +123,21 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &15418128 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 257396219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &29247815 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1723406270}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &96419347 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1412100693}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &99762937
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -145,7 +160,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalPosition.y
@@ -193,6 +208,71 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
   m_PrefabInstance: {fileID: 99762937}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &106368379
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
 --- !u!1 &116354425
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,6 +365,148 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1177064075}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &117354000
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &122725380 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1373508820}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &125750428
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &129037287 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1112643807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &147764229 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1314719652}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &158144850 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1859877458}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &169683162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -307,7 +529,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalPosition.y
@@ -355,6 +577,377 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
   m_PrefabInstance: {fileID: 169683162}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &201817761
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &236216497
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &248962175
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &253237679 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 295782485}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &257396219
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &289200749
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &295782485
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
 --- !u!1 &338606480
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,6 +1053,128 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &340237270
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &356143805
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
 --- !u!1 &363558274
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,7 +1200,7 @@ Transform:
   m_GameObject: {fileID: 363558274}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -4.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -497,8 +1212,239 @@ Transform:
   - {fileID: 99762938}
   - {fileID: 2025841505}
   - {fileID: 169683163}
+  - {fileID: 568182660}
+  - {fileID: 437996488}
+  - {fileID: 1473321916}
+  - {fileID: 1433150654}
+  - {fileID: 1294916214}
+  - {fileID: 632096092}
+  - {fileID: 1454019250}
+  - {fileID: 430976321}
+  - {fileID: 464414892}
+  - {fileID: 29247815}
+  - {fileID: 253237679}
+  - {fileID: 1372224197}
+  - {fileID: 924165106}
+  - {fileID: 904358387}
+  - {fileID: 1411470775}
+  - {fileID: 566820386}
+  - {fileID: 122725380}
+  - {fileID: 1411524597}
+  - {fileID: 485918072}
+  - {fileID: 96419347}
+  - {fileID: 1771635017}
+  - {fileID: 1710599473}
+  - {fileID: 1422504746}
+  - {fileID: 525234322}
+  - {fileID: 736419991}
+  - {fileID: 453333274}
+  - {fileID: 485160142}
+  - {fileID: 474291041}
+  - {fileID: 1548587933}
+  - {fileID: 1087956504}
+  - {fileID: 129037287}
+  - {fileID: 1771387839}
+  - {fileID: 1781449973}
+  - {fileID: 158144850}
+  - {fileID: 1397017358}
+  - {fileID: 2115699885}
+  - {fileID: 1850478577}
+  - {fileID: 15418128}
+  - {fileID: 677425745}
+  - {fileID: 1598677461}
+  - {fileID: 1529261560}
+  - {fileID: 2006705941}
+  - {fileID: 959045356}
+  - {fileID: 1741448444}
+  - {fileID: 1476357590}
+  - {fileID: 711758345}
+  - {fileID: 2069151221}
+  - {fileID: 415570114}
+  - {fileID: 147764229}
+  - {fileID: 1289986384}
+  - {fileID: 1268063482}
+  - {fileID: 1999435515}
+  - {fileID: 1673852339}
+  - {fileID: 1839025538}
+  - {fileID: 1447905560}
+  - {fileID: 656829252}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &415570114 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 736229959}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &430976321 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1002865442}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &437996488 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 708977962}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &453333274 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 683371999}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &464414892 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 2120583943}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &474291041 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 843478463}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &485160142 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 2082444360}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &485918072 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 725139060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &504149754
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &525234322 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1976317098}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &540973039
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
 --- !u!1 &542277971
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,11 +1539,1140 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!4 &566820386 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 2045754386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &568182660 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 700772962}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &603995477
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &632096092 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 236216497}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &656829252 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 117354000}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &672172582
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &677425745 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1808024387}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &678619412
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &683371999
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
 --- !u!4 &688939669 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
   m_PrefabInstance: {fileID: 1995620384}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &700772962
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &706928478
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &708977962
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &711758345 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 248962175}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &725139060
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &736229959
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &736419991 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1957055500}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &811930666
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &843478463
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &868701335
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &879636760
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &891145371
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &904358387 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 289200749}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &924165106 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 811930666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &959045356 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 2094598836}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1001192881
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &1002865442
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &1079506833
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &1087956504 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1959007890}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1112643807
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
 --- !u!1001 &1151772461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -620,7 +2695,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalRotation.w
@@ -637,6 +2712,71 @@ PrefabInstance:
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &1154749556
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -706,16 +2846,1112 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
   m_PrefabInstance: {fileID: 1911263249}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1268063482 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1368780746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1289986384 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 891145371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1294916214 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1560018887}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1314719652
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &1332746985
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &1338340646
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &1368780746
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &1372224197 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 879636760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1373508820
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &1397017358 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1573915718}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1403762921
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &1411470775 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 603995477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1411524597 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 356143805}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1412100693
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &1422504746 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1978749839}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1433150654 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1403762921}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1442097998
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &1447905560 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 706928478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1454019250 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 540973039}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1473321916 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 125750428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1476357590 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 672172582}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1529261560 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1748625266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1548587933 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1001192881}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1560018887
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &1573915718
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &1598677461 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1610383010}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1610383010
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &1673852339 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 504149754}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1682253782 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
   m_PrefabInstance: {fileID: 1151772461}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1710599473 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 106368379}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1723406270
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
 --- !u!4 &1733891410 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
   m_PrefabInstance: {fileID: 7958017985141764609}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1741448444 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 201817761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1748625266
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &1771387839 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 868701335}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1771635017 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1079506833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1781449973 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1332746985}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1808024387
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &1839025538 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1338340646}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1844512005
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &1850478577 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 678619412}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1859877458
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
 --- !u!1001 &1874030464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -738,7 +3974,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalPosition.y
@@ -746,7 +3982,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalRotation.w
@@ -914,7 +4150,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalRotation.w
@@ -931,6 +4167,266 @@ PrefabInstance:
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &1957055500
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &1959007890
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &1976317098
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &1978749839
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -971,7 +4467,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1006,6 +4502,16 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &1999435515 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1844512005}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2006705941 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1154749556}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2025841504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1028,7 +4534,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1076,6 +4582,252 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
   m_PrefabInstance: {fileID: 2025841504}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2045754386
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &2069151221 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 1442097998}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2082444360
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!1001 &2094598836
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
+--- !u!4 &2115699885 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+  m_PrefabInstance: {fileID: 340237270}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2120583943
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 363558275}
+    m_Modifications:
+    - target: {fileID: 2509168668282745034, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_Name
+      value: Jenga Cube (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d34d27662b846d048b39c126fa127640, type: 3}
 --- !u!1001 &7958017985141764609
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1098,7 +4850,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8677166189859504859, guid: d34d27662b846d048b39c126fa127640, type: 3}
       propertyPath: m_LocalRotation.w
