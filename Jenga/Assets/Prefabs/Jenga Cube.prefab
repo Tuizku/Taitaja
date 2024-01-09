@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 116007162389190673}
   m_Layer: 0
   m_Name: Jenga Cube
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
