@@ -23,11 +23,16 @@ public class PlayerController : MonoBehaviour
 
     // Private variables
     private float rotationY;
-    private bool controlsEnabled = true;
+
+    // Static variables
+    public static bool controlsEnabled;
 
 
-
-    void Update()
+    private void Start()
+    {
+        controlsEnabled = true;
+    }
+    private void Update()
     {
         // Rotate camera by mouse when mouse's right click is being clicked
         if (Input.GetMouseButton(1))
@@ -85,7 +90,9 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator ChangeTurnWhenStable()
     {
+        GameManager.self.NextTurn();
         controlsEnabled = false;
+
         float time = 0;
         while (time < intensityWait)
         {
@@ -96,5 +103,7 @@ public class PlayerController : MonoBehaviour
 
         OnTurnChange.Invoke();
         controlsEnabled = true;
+
+        GameManager.self.LoadTurn();
     }
 }

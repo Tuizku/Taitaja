@@ -15,14 +15,13 @@ public class GameManager : MonoBehaviour
     {
         return newTurn % 2 + 1;
     }
-    private void LoadTurn()
+    public void LoadTurn()
     {
         onTurn.Invoke($"Player {GetPlayer(turn)}");
     }
     public void NextTurn()
     {
         turn++;
-        LoadTurn();
     }
     private void Start()
     {
@@ -34,7 +33,7 @@ public class GameManager : MonoBehaviour
     public void Lose()
     {
         hasLost = true;
-        onLose.Invoke($"Player { GetPlayer(turn + 1) } won!\n{ loseMessages[Random.Range(0, loseMessages.Length)] }");
+        onLose.Invoke($"Player { GetPlayer(turn) } won!\n{ loseMessages[Random.Range(0, loseMessages.Length)] }");
         Time.timeScale = 0.0f;
     }
     private void OnTriggerEnter(Collider other)
