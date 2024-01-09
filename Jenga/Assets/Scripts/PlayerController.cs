@@ -1,26 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerController : MonoBehaviour
 {
     // Setting Variables
     [SerializeField] private float pieceSensitivity = 12f;
     [SerializeField] private float cameraSensitivity = 3f;
-    [SerializeField] private float pieceSize = 4f;
+
+    // Events
+    public UnityEvent OnTurnChange;
 
     // Variables for controlling pieces
-    private Transform selectedPiece;
-    private Vector3 startSelectedPos = Vector3.zero;
-    private float startMouseY;
+    private JengaPiece selectedPiece;
+    private Vector3 pieceMovingDirection;
+    private float lastMouseY;
 
     // Variables for camera
-    private float rotationX;
     private float rotationY;
-    private Transform cameraTransform;
 
 
-    void Start() { cameraTransform = transform.GetChild(0); }
 
     void Update()
     {
@@ -30,11 +30,12 @@ public class PlayerController : MonoBehaviour
             rotationY += Input.GetAxis("Mouse X") * cameraSensitivity;
             transform.localEulerAngles = new Vector3(0, rotationY, 0);
         }
-
+        
         // Controlling pieces
         if (Input.GetMouseButtonDown(0)) SelectPiece();
-        if (Input.GetMouseButton(0) && selectedPiece) MovePiece();
         if (Input.GetMouseButtonUp(0)) DeselectPiece();
+        if (Input.GetMouseButton(0) && selectedPiece) MovePiece();
+        
     }
 
 
@@ -44,22 +45,29 @@ public class PlayerController : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray, out hit, 100))
         {
-            selectedPiece = hit.transform;
-            print(selectedPiece.name);
+            selectedPiece = hit.transform.GetComponent<JengaPiece>();
+            pieceMovingDirection = -hit.normal;
+            print(hit.normal);
         }
 
-        // Set the starting positions for moving the piece
-        startSelectedPos = selectedPiece.position;
-        startMouseY = Input.mousePosition.y / Screen.height;
+        // Set lastMouse to mouse position so the piece just doesn't teleport away
+        lastMouseY = Input.mousePosition.y;
     }
 
     private void MovePiece()
     {
-        float posChange = Input.mousePosition.y / Screen.height - startMouseY;
-        selectedPiece.position = startSelectedPos + selectedPiece.right * posChange * pieceSensitivity;
+        float mouseChange = Input.mousePosition.y - lastMouseY;
+        lastMouseY = Input.mousePosition.y;
+        Vector3 posChange = pieceMovingDirection * mouseChange / Screen.height * pieceSensitivity;
 
-        if (Vector3.Distance(startSelectedPos, selectedPiece.position) > pieceSize - 0.5f)
+        selectedPiece.transform.position += posChange;
+
+        // Removes the piece if it isn't colliding with any other piece. This also changes the turn
+        if (!selectedPiece.IsColliding())
         {
+            OnTurnChange.Invoke();
+
+            // Clean
             Destroy(selectedPiece.gameObject);
             DeselectPiece();
         }
@@ -68,7 +76,5 @@ public class PlayerController : MonoBehaviour
     private void DeselectPiece()
     {
         selectedPiece = null;
-        startSelectedPos = Vector3.zero;
-        startMouseY = 0;
     }
 }
