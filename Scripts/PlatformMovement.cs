@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlatformMovement : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class PlatformMovement : MonoBehaviour
     [SerializeField] private Vector2 GroundDetectorSize = new Vector2(0.5f, 0.5f);
     [SerializeField] private float GroundDetectorOffset = 0.05f; // How much distance in y is added to detector's position. 0 = collides with player
     [SerializeField] private bool DrawGizmos = false;
+
+    [Header("Events")]
+    [SerializeField] UnityEvent OnJump;
 
     // Player's Components
     private Rigidbody2D rb;
@@ -43,7 +47,11 @@ public class PlatformMovement : MonoBehaviour
             Collider2D result = Physics2D.OverlapBox(CalculateGroundDetectorPos(), GroundDetectorSize, 0);
 
             // If ground detected -> Jump
-            if (result != null) rb.AddForce(Vector2.up * JumpForce);
+            if (result != null)
+            {
+                rb.AddForce(Vector2.up * JumpForce);
+                OnJump.Invoke();
+            }
         }
     }
 
