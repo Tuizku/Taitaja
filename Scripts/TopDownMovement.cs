@@ -5,7 +5,7 @@ using UnityEngine;
 public class TopDownMovement : MonoBehaviour
 {
     [SerializeField] private float Speed = 6f;
-    [SerializeField] private float Damp = 0.6f;
+    [SerializeField] private float Damp = 400f;
 
     private Rigidbody2D rb;
 
@@ -22,6 +22,6 @@ public class TopDownMovement : MonoBehaviour
 
         // Smooth movement with normalized inputs and damping
         Vector2 normalizedInputs = new Vector2(horizontal, vertical).normalized;
-        rb.AddForce(normalizedInputs * Speed * Damp - rb.velocity * Damp);
+        rb.AddForce((normalizedInputs * Speed * Damp - rb.velocity * Damp) * Time.deltaTime);
     }
 }
